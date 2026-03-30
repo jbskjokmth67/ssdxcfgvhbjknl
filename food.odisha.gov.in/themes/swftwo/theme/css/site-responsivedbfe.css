@@ -1,0 +1,696 @@
+/**Responsive Design for school website**/
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+ 
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .five-t-sec .sec-first{
+        width: 100%;
+    }
+    .five-t-sec {
+        background: none;
+        min-height: 95px;
+        display: block;
+        position: relative;
+    }
+    .five-t-sec .sec-first .five-t-listing{
+        display: block;
+        transform: translateY(0px);
+        text-align: center;
+    }
+    .five-t-sec .sec-first .five-t-logo{
+        float: none;
+        width: 100%;
+        background-color: #3b96c3;
+        display: flex;
+        justify-content: center;
+    }
+    .five-t-listing{
+        padding: 10px 0;
+    }
+    .five-t-listing li {
+        margin: 0 7px;
+     }
+    .five-t-listing li > span{
+        width: 48px;
+        padding: 10px 0px;
+    }
+    .five-t-listing li a{
+        font-size: 78%;
+        font-weight: 600;
+    }
+    .five-t-sec .sec-second{
+        width: 100%;
+        background-color: #033454;
+        padding: 27px 0;
+    }
+    .five-t-sec .sec-second a{
+        font-weight: 600;   
+    }
+    .about-sec .know-more{
+        float: right;
+        margin-bottom: 1px;
+    }
+    .social-section .nav-pills li.nav-item {
+        width: 50%;
+        float: left;
+    }
+    .social-section .nav-pills .nav-item .nav-link{
+        padding: 6px 70px;
+    }
+    .banner-wrapper .flexslider .slides img{
+        height: auto;
+    }
+    .content-left{height: auto;}
+    .content-right{width: 67%;}
+    .advrt-portlet img{
+        width: 100%;
+    }
+    .contact-us-page{
+        flex-direction: column;
+    }
+    .contact-us-page .map {
+        width: 100%;
+    }
+    .album-list .item-list li{
+        width: 28%;
+        min-height: 202px;
+    }
+    .content-left{height: auto;width: 100%; padding-bottom: 40px;}
+    .content-right{width: 100%;}
+
+.heading-container {
+    max-width: 100%;
+    min-width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    transform: translate(-50%, -36%);
+    padding: 0 20px;
+}
+.inner-banner-image {
+    position: relative;
+    min-height: 100px;
+}
+.inner-banner-image img {
+   
+    width: 100%;
+    height: 105px;
+}
+ 
+.inner-banner-image h1{
+    font-size: 20px;
+        margin: 0;
+}
+.inner-banner-image .breadcrumb{
+    padding: 0;
+}
+.content-left nav {
+    padding-top: 0;
+
+}
+.investment-link-one ul li a {
+    padding: 5px 5px;
+}
+.modal-search{
+    right: 32%;
+    top: 32px;
+}
+.modal-search form {
+    background-color: #434343;
+}
+.logo span:nth-child(2){
+    white-space: normal;
+}
+.content-invetment {
+    min-height: 465px;
+    max-height: 465px;
+}
+.js-drupal-fullcalendar .fc-header-toolbar .fc-right {
+    margin-left: 0;
+}
+.js-drupal-fullcalendar .fc-header-toolbar .fc-left button, 
+.js-drupal-fullcalendar .fc-header-toolbar .fc-right button{
+padding: 0 6px !important;
+}
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+    
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+ /**Homepage Popup banner**/
+.modalconent{width:90%;}  	
+	
+    ul.sf-menu{
+        height: 300px;
+        overflow: scroll;
+    }
+  .wrapper.nice-menu .sf-accordion-toggle a:before {
+    content: '';
+    display: block;
+    background: url(../images/menu.png) no-repeat;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+.wrapper.nice-menu .sf-accordion-toggle a span {
+    display: none;
+}
+  .logo span:nth-child(2) {
+        font-size: 39%;
+   }
+  .header-container .minister > a {
+        margin-top: 22px;
+      font-size: 13px;
+   }
+    .news-runner {
+        position: relative;
+        width: 100%;
+    }
+    .p-l-none {
+        padding-left: 0px;
+        padding-right: 0;
+    }
+    .five-t-sec .sec-first{
+        width: 100%;
+    }
+    .five-t-sec {
+        background: none;
+        min-height: 95px;
+        display: block;
+        position: relative;
+    }
+    .five-t-sec .sec-first .five-t-listing{
+        display: block;
+        transform: translateY(0px);
+        text-align: center;
+    }
+    .five-t-sec .sec-first .five-t-logo{
+        float: none;
+        width: 100%;
+        background-color: #3b96c3;
+        display: flex;
+        justify-content: center;
+    }
+    .five-t-listing{
+        padding: 10px 0;
+    }
+    .five-t-listing li {
+        margin: 0 7px;
+     }
+    .five-t-listing li > span{
+        width: 48px;
+        padding: 10px 0px;
+    }
+    .five-t-listing li a{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .five-t-sec .sec-second{
+        width: 100%;
+        background-color: #033454;
+        padding: 27px 0;
+    }
+    .five-t-sec .sec-second a{
+        font-weight: 600; 
+		font-size: 48%;
+    }
+    .odisha-profile-col .know-more{
+        margin-bottom: 15px;
+        float: right;
+    }
+    .investment-link-three img{
+        width: 100%;
+    }
+    .training-box{
+        height: 330px;
+    }
+    .banner-wrapper .js-view-dom-id-64f4832479d15a7e3d272392a82ec82400202891cb92be96b0bc62ff3cfa3ccf{
+        display: flex;
+        justify-content: space-around;
+    }
+    .social-section .social-box{
+        margin-bottom: 5px;
+    }
+    .social-section .imp-links{
+        margin-bottom: 20px;
+    }
+    
+    .js-view-dom-id-f2a165b9885795a5664507d0cb4ca488e5c0fb3e1cea4c00583322514a31a489{
+        display: flex;
+        justify-content: space-around;
+    }
+    .content-left{height: auto;width: 100%;}
+    .content-right{width: 100%;
+    }
+    .advrt-portlet img{
+        width: 100%;
+    }
+    .content-left {
+        display: table-cell;
+        min-width: 250px;
+        width: 100%;
+        height: auto;
+        box-shadow: 10px 0 5px -2px #ececec;
+        background: none;
+        float: left;
+        padding-bottom: 0px;
+    }
+    .contact-us-page{
+        flex-direction: column;
+    }
+    .contact-us-page .map {
+        width: 100%;
+    }
+    .album-list .item-list li{
+        width: 40%;
+    }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+ /**Homepage Popup banner**/
+.modalconent{width:90%;}  	
+  
+ .common-wrapper .top-header .common-left{    
+        float: none;
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid #525252;
+    }
+    .header-wrapper .logo img {
+       width: 70px;
+    }   
+    .header-wrapper .logo {
+        width: 100%;
+    }
+    .header-wrapper .logo span {
+    font-size: 14px;
+    display: block;
+}
+    .header-wrapper .logo span{
+        font-size: 14px;
+        display: block;
+    }
+    .header-wrapper .logo span:nth-child(2){
+           margin-top: -8px;
+               white-space: normal;
+    }
+    .header-wrapper .float-right{
+        float: none !important;
+    }
+    .header-wrapper .minister{
+        position: unset;
+    }
+    .header-wrapper .float-right .minister a{
+        float: right!important;
+        margin-right: 119px;
+        margin-top: 12px;
+    }
+    .header-wrapper .float-right .minister a span{
+        color: #6b6b6b;
+        font-size: 12px;
+    }
+    .header-wrapper .float-right .minister img{
+        width: 19%;
+        position: absolute;
+        bottom: 0;
+        right: 50px;
+    }
+    .wrapper.nice-menu .sf-accordion-toggle a:before{
+        content: '';
+        display: block;
+        background: url(../images/menu.png) no-repeat;
+        width: 40px;
+        height: 40px;
+        margin-top: 5px;
+
+    }
+    .wrapper.nice-menu .sf-accordion-toggle a span{
+        display: none;
+    }
+    
+    .modal-search {
+    max-width: 300px;
+    min-width: 300px;
+    position: absolute;
+    right: 32px;
+    top: 73px;
+    z-index: 7;
+    margin: 0;
+    min-height: 45px;
+    display: none;
+    }
+    .news-runner{
+        position: relative;
+        width: 100%;
+    }
+    #news-slider .flex-direction-nav .flex-prev {
+        opacity: 1 !important;
+        left: 0;
+        top: -27px;
+    }
+    #news-slider .flex-direction-nav .flex-next {
+        right: 0;
+        top: -27px;
+        text-align: right;
+        opacity: 1 !important;
+    }
+    .p-l-none {
+    padding-left: 0px;
+    padding-right: 0;
+    }
+    .banner-wrapper .flexslider .slides img {
+        height: auto;
+    }
+    .banner-wrapper .col-md-3{
+        min-height: 242px;
+        padding: 0 42px;
+    }
+    .five-t-sec .sec-first{
+        width: 100%;
+    }
+    .five-t-sec {
+        background: none;
+        min-height: 95px;
+        display: block;
+        position: relative;
+    }
+    .five-t-sec .sec-first .five-t-listing{
+        display: block;
+        transform: translateY(0px);
+        text-align: center;
+    }
+    .five-t-sec .sec-first .five-t-logo{
+        float: none;
+        width: 100%;
+        background-color: #3b96c3;
+        display: flex;
+        justify-content: center;
+    }
+    .five-t-listing{
+        padding: 10px 0;
+    }
+    .five-t-listing li {
+        margin: 0 7px;
+     }
+    .five-t-listing li > span{
+        width: 48px;
+        padding: 10px 0px;
+    }
+    .five-t-listing li a{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    
+    .five-t-sec .sec-second a{
+        font-weight: 600;   
+    }
+    .odisha-profile-col .know-more{
+        margin-bottom: 15px;
+        float: right;
+    }
+  .investment-link-one ul li a{
+        padding: 5px 5px;
+    }
+    .training-box{
+        height: 330px;
+    }
+    .social-section .social-box ul{
+        display: block;
+        width: 100%;
+    }
+    .social-section .social-box ul li{
+        flex-grow: 0;
+        float: left;
+        width: 50%;
+    }
+    .social-section .social-box {
+        background-color: #fff;
+        
+    }
+    .imp-links {
+        margin-bottom: 20px;
+    }
+    .slide-section {
+        margin: 45px 0 30px;
+    }
+   #news-slider .flex-direction-nav .flex-next {
+        right: -10px;
+        top: 54px;
+        text-align: right;
+        opacity: 1 !important;
+    }
+    #news-slider .flex-direction-nav .flex-prev {
+        opacity: 1 !important;
+        left: -10px;
+        top: 56px;
+    }
+    .footer-inline-menu ul li{
+        padding: 6px 26px;
+        background-color: #0f5ead;
+        margin: 4px 3px;
+    }
+    .five-t-sec .sec-second {
+        width: 100%;
+        background-color: #033454;
+        padding: 27px 0;
+        display: flex;
+        flex-direction: column-reverse;
+}
+    .sec-second ul {
+        float: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .sec-second ul li {
+        display: block;
+        min-width: 150px;
+        min-height: 80px;
+    }
+    .sec-second ul {
+        float: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .inner-expend:before {
+        top: -9px;
+        left: 48px;
+    } 
+    ul.inner-expend > div {
+        min-width: 100%;
+    }
+    .sec-left-link {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .sec-right-link{
+        width: 100%;
+    }
+    .inner-expend h4 {
+        width: 52%;
+    }
+    .five-t-sec .sec-second a {
+        font-weight: 600;
+        min-width: 93px;
+        text-align: center;
+    }
+    .content-left{
+        width: 100%;
+    }
+    .advrt-portlet img{
+        width: 100%;
+    }
+    .content-left {
+        display: table-cell;
+        min-width: 250px;
+        width: 100%;
+        height: auto;
+        box-shadow: 10px 0 5px -2px #ececec;
+        background: none;
+        float: left;
+        padding-bottom: 0px;
+    }
+    .content-right{
+        width: 100%;
+    }
+    .contact-us-page{
+        flex-direction: column;
+    }
+    .contact-us-page .map {
+        width: 100%;
+    }
+    .album-list .item-list li{
+        width: 100%;
+        text-align: center;
+    }
+    .page-video-gallery .item-list ul > li{
+        width: 100%;
+    }
+    .inner-expend{left:53%;top:62%;}
+.heading-container {
+    max-width: 100%;
+    min-width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    transform: translate(-50%, -36%);
+    padding: 0 20px;
+}
+.inner-banner-image {
+    position: relative;
+    min-height: 100px;
+}
+.inner-banner-image img {
+    width: 100%;
+    height: 100px;
+}
+.inner-banner-image h1{
+    font-size: 20px;
+        margin: 0;
+            margin-bottom: 4px;
+}
+.inner-banner-image .breadcrumb{
+    padding: 0;
+}
+
+.content-left nav{
+    padding-top: 0;
+}
+#quicktabs-who_s_who ul.quicktabs-tabs li{
+	width: 100%;
+}
+#quicktabs-who_s_who ul.quicktabs-tabs li a, 
+#quicktabs-rural_department_schemes_tab ul.quicktabs-tabs li a, 
+#quicktabs-rural_department_organisation_ch ul.quicktabs-tabs li a{
+ width: 100%;
+ display: block;
+}
+.inner-banner-image .breadcrum-menu nav ol{
+    line-height: 20px;
+}
+.inner-banner-image .breadcrum-menu nav ol li{
+    font-size: 14px;
+}
+.path-media .album-list .item-list li{
+    width: auto;
+}    
+.page-node-type-album .grid-photo .item-list ul li img{
+height: 40px;
+}
+.page-node-type-album .list-photo .item-list ul li{
+    height: 40px;
+}
+.page-node-type-album .list-photo .item-list ul li img{
+height: 40px;
+}
+.path-media .page-video-gallery .item-list ul > li{
+   width: 100%;
+}
+.common-wrapper .common-container {
+    padding: 0;
+}
+
+.common-right ul li{
+    border:0;
+}
+.common-right{
+    right: 0px;
+}
+.investment-col{
+    margin-top: 15px;
+}
+.path-transparency-portal .innerpage-wrapper .trnsprnc2{
+    float: none;
+    width: 380px;
+}
+.path-transparency-portal .innerpage-wrapper .trnsprnc1{
+    margin-left: 0px;
+    margin-top: 20px;
+    width: 380px; 
+    min-height: 0;
+}
+ ul.sf-menu > li:hover:before {
+    width: 0px;
+}
+.social-section .nav-pills .nav-item .nav-link {
+    padding: 6px 60px;
+}
+.path-tenders .views-exposed-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+.path-tenders .views-exposed-form .form-item {
+    width: 100%;
+}
+.path-tenders .views-exposed-form{
+    padding: 25px 15px 15px 15px;
+}
+.path-webform #block-swftwo-content {
+        background-position: 85% 89%;
+    min-height: 750px;
+    background-size: 100%;
+}
+.modal-search form {
+    background-color: #434343;
+}
+.common-left ul {
+    float: left;
+    margin: 0;
+    padding-right:30px;
+}
+
+
+}
+@media (max-width: 940px){
+    .scroll-table1 {
+        overflow: hidden !important;
+        overflow-x: scroll !important;
+    }
+}
+
+.inner-expend{display: none;}

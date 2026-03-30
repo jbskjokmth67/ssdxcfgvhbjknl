@@ -1,0 +1,9 @@
+/*Scroller in important links*/
+.path-frontpage .imp-links {
+    height: 430px !important;
+    border: 1px solid #ffffff;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    overflow: auto;
+  }
+  #cmf-site-breadcrumb {display: none;}

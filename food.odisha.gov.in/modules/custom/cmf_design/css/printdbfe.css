@@ -1,0 +1,145 @@
+@page {size: A4; margin: 1em;}
+
+@media print {
+html, body {padding:0; margin:0;}  
+a[href]:after {content: none !important;}
+  
+
+/***Navigation***/
+.navigation .we-mega-menu-ul > .we-mega-menu-li{border:1px solid #000;}
+.fixed{position:static !important; width:100%; }
+.navigation .minister{}
+
+/***Banner***/
+.advertisement-blog img{height:auto !important;}
+.banner-widget .col-md-9{width:70%; float:left;}
+.banner-widget .col-md-3{width:30%; float:left;}
+
+/***Hidden Treasure of Odisha***/
+.hidden-treasure ul.slides{display:block !important;}
+.hidden-treasure .teasure-gallery .treasure-gallery-card{width:33% !important; float:left !important;}
+ 
+/*** top header ***/    
+ .common-right ul li.ico-site-search > a {
+    filter: invert(1);
+}
+   
+.common-left ul li a {
+color: #000;
+font-size: 12px;
+font-weight: normal;
+text-decoration: none;
+}
+    
+.common-right ul li a img {
+      filter: invert(1);
+}
+    
+/*** 5T ***/  
+.five-t-listing li a {
+    color: #343434 !important;
+    font-size: 140% !important;
+    text-decoration: none !important;
+}    
+.icon img {
+    filter: invert(1) !important;
+}    
+ .sec-second ul li a {
+    color: #000 !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+       text-decoration: none !important;
+} 
+.sec-second ul {
+    float: left !important;
+    margin: 5px 0 0 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
+ .sec-second ul li {
+    display: inline-block !important;
+    text-align: center !important;
+    margin: 0 4px !important;
+    float: left !important;
+    width: 12.9% !important;
+      text-decoration: none !important;
+}
+.content-item ul li > a {
+    color: #000 !important;
+    font-size: 150% !important;
+    text-decoration: none !important;
+}  
+footer a.cmf-btn-outline {
+    color: #000 !important;
+    font-size: 18px !important;
+    border: 1px solid #000 !important;
+    padding: 6px 24px !important;
+    text-decoration: none !important;
+}
+.content-item footer > a {
+   color: #000 !important;
+    font-size: 18px !important;
+    border: 1px solid #000 !important;
+    padding: 6px 24px !important;
+     text-decoration: none !important;
+}    
+.service-content footer { 
+   margin-bottom: 30px !important; 
+}
+.hidden-treasure h2 {
+    color: #000 !important;     
+    margin-top: 180px !important; 
+}    
+div#flexCarousel4 {
+    float: left !important; 
+    width: 100% !important; 
+    display: block !important; 
+}
+    .hidden-treasure ul.slides {
+    display: flex !important; 
+    width: 100% !important;
+    justify-content: space-between !important; 
+}
+ .hidden-treasure .teasure-gallery .treasure-gallery-card {
+    background-color: #fff;
+    border-radius: 7px;
+    min-height: 410px;
+    position: relative;
+    transition-duration: 0.8s;
+    overflow: hidden;
+    transition: background-color 0.5s ease;
+    min-width: 31% !important;
+}   
+li.treasure-gallery-card.after-shape {
+    float: left !important;
+    width: 31% !important;
+    display: inline-block !important;
+}    
+ .hidden-treasure .teasure-gallery .treasure-gallery-card .trasure-gallery-content a {    
+    border: 1px solid #000 !important;
+    padding: 6px 12px !important;
+     text-decoration: none !important;
+}
+
+/****Photo Gallery****/
+.odisha-gallery-section .col-lg-8{width:60%;} 
+.odisha-gallery-section .col-lg-4{width:40%; border: 1px solid #000;} 
+    
+.col-1-5 {
+    width: 20% !important;
+    float: left !important;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    min-height: 155px !important;
+    padding: 0;
+    border: 1px solid #000 !important;
+}
+.odisha-profile-sec .col-lg-5{width:48%;} 
+.odisha-profile-sec .col-lg-7{width:50%;}  
+.main-footer .container .col-lg-3{width:50%;} 
+
+
+
+   
+}
